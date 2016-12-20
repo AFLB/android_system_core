@@ -977,7 +977,7 @@ static void selinux_initialize(bool in_kernel_domain) {
     cb.func_audit = audit_callback;
     selinux_set_callback(SELINUX_CB_AUDIT, cb);
 
-    if (selinux_is_disabled()) {
+    if (true) {
         return;
     }
 
